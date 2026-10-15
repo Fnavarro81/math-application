@@ -26,7 +26,7 @@ public class MathApp {
 
         // Question 3
         double radius = 7.25;
-        double circleArea = 3.14 * ( radius * radius);
+        double circleArea = Math.PI * (radius * radius);
         System.out.println("The area of a circle with a radius of " + radius + " is " + circleArea);
 
         // Question 4
@@ -34,7 +34,18 @@ public class MathApp {
         double squareRoot = Math.sqrt(num);
         System.out.println("The square root of " + num + " is " + squareRoot);
 
+        // Question 5
+        double x1 = 5;
+        double y1 = 10;
+        double x2 = 85;
+        double y2 = 50;
+        double distance = Math.sqrt(Math.pow((x2 - x1),  2) + Math.pow((y2 - y1), 2));
+        System.out.println("The distance between (" + x1 + ", " + y1 + ") and (" + x2 + ", " + y2 + ") is " + distance);
 
+        // Question 6
+        double num1 = -3.8;
+        double difference = Math.abs(-3.8);
+        System.out.println("The absolute of " + num1 + " is " + difference);
 
     }
 }
