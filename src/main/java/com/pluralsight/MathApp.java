@@ -47,5 +47,19 @@ public class MathApp {
         double difference = Math.abs(-3.8);
         System.out.println("The absolute of " + num1 + " is " + difference);
 
+        // Question 7
+        double randomNUmber = Math.random();
+        System.out.println(randomNUmber);
+
+        // Question 8
+        double msInSecond = 1000;
+        double secInMinute = 60;
+        double minutesInDay = 1440;
+        double dayCount = 24;
+        double minutesInDays = minutesInDay * dayCount;
+        System.out.println("There is " + minutesInDays + " in " + dayCount + " days");
+        double msInDays = (msInSecond * secInMinute) * (minutesInDay) * (dayCount);
+        System.out.println("There is " + msInDays + " in " + dayCount + " days");
+
     }
 }
